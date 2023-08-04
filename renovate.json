@@ -1,5 +1,12 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "enabledManagers": ["regex"],
+  "packageRules": [
+    {
+      "matchManagers": ["regex"],
+      "groupName": "custom-regex-deps"
+    }
+  ]
   "regexManagers": [
     {
       "description": "Update install-* Buildpack commands in Dockerfiles",
@@ -9,5 +16,6 @@
       ],
       "versioningTemplate": "{{#if versioning}}{{versioning}}{{else}}semver{{/if}}"
     }
-   ]
+   ],
+  "configMigration": true
 }
