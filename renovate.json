@@ -4,7 +4,8 @@
   "packageRules": [
     {
       "matchManagers": ["regex"],
-      "groupName": "custom-regex-deps"
+      "groupName": "custom-regex-deps",
+      "recreateWhen": "never"
     }
   ],
   "regexManagers": [
