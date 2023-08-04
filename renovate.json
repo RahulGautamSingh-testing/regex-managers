@@ -17,5 +17,6 @@
       "versioningTemplate": "{{#if versioning}}{{versioning}}{{else}}semver{{/if}}"
     }
    ],
-  "configMigration": true
+  "configMigration": true,
+  "dependencyDashboard": true
 }
