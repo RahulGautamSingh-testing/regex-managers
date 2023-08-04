@@ -6,7 +6,7 @@
       "matchManagers": ["regex"],
       "groupName": "custom-regex-deps"
     }
-  ]
+  ],
   "regexManagers": [
     {
       "description": "Update install-* Buildpack commands in Dockerfiles",
